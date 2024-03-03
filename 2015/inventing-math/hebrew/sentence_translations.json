@@ -296,7 +296,7 @@
   ]
  },
  {
-  "translatedText": "כדי להיות כלליים לגבי זה, נניח שאתה חותך את המרווח שלך לחתיכות בגודל p ואחד מינוס p, כאשר p מייצג כל מספר בין אפס לאחד.",
+  "translatdText": "כדי להיות כלליים לגבי זה, נניח שאתה חותך את המרווח שלך לחתיכות בגודל p ואחד מינוס p, כאשר p מייצג כל מספר בין אפס לאחד.",
   "input": "To be general about it, let's say that you cut your interval into pieces of size p and one minus p, where p represents any number between zero and one.",
   "time_range": [
    340.36,

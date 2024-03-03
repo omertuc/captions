@@ -2,7 +2,7 @@
  {
   "input": "Have you ever wondered how it's possible to scratch a CD or a DVD and still have it play back whatever it's storing?",
   "model": "nmt",
-  "translatedText": "האם אי פעם תהיתם איך אפשר לגרד תקליטור או DVD ועדיין להשמיע את כל מה שהוא מאחסן?",
+  "translatedText": "האם אי פעם תהיתם איך אפשר לשרוט תקליטור או DVD ועדיין לנגן את כל מה שהוא מאחסן?",
   "time_range": [
    3.62,
    10.1
@@ -11,7 +11,7 @@
  {
   "input": "The scratch really does affect the 1s and 0s on the disk, so it reads off different data from what was stored, but unless it's really scratched up, the bits it reads off are decoded into precisely the same file that was encoded onto it, a bit for bit copy, despite all those errors.",
   "model": "nmt",
-  "translatedText": "השריטה באמת משפיעה על ה-1 וה-0 בדיסק, אז הוא קורא נתונים שונים ממה שנשמר, אבל אלא אם כן הוא ממש שרוט, הביטים שהוא קורא מפוענחים בדיוק לאותו קובץ שקודד בו, עותק ביט אחר סיבי, למרות כל השגיאות הללו.",
+  "translatedText": "השריטה באמת משפיעה על האפסים והאחדות בדיסק, אז באמת נקראים נתונים שונים ממה שנשמר במקור, אבל אלא אם כן הדיסק ממש שרוט, הביטים שנקראים ממנו מפוענחים בדיוק לאותו קובץ שקודד בו במקור, עותק מדויק, כל ביט וביט, למרות כל השגיאות האלו.",
   "time_range": [
    10.9,
    27.44
@@ -20,7 +20,7 @@
  {
   "input": "There is a whole pile of mathematical cleverness that allows us to store data, and just as importantly to transmit data, in a way that's resilient to errors.",
   "model": "nmt",
-  "translatedText": "יש ערימה שלמה של פיקחות מתמטית שמאפשרת לנו לאחסן נתונים, ולא פחות חשוב להעביר נתונים, בצורה עמידה בפני שגיאות.",
+  "translatedText": "יש אוסף גדול של חכמה מתמטית שמאפשרת לנו לאחסן נתונים, ולא פחות חשוב, לשלוח נתונים, בצורה עמידה בפני שגיאות.",
   "time_range": [
    27.44,
    36.2
@@ -29,7 +29,7 @@
  {
   "input": "Well, okay, actually it doesn't take that much cleverness to come up with a way to do this.",
   "model": "nmt",
-  "translatedText": "ובכן, בסדר, למעשה לא צריך כל כך הרבה פיקחות כדי למצוא דרך לעשות את זה.",
+  "translatedText": "ובכן, למעשה לא צריך כל כך הרבה חכמה כדי למצוא דרך לעשות את זה.",
   "time_range": [
    36.2,
    40.88
@@ -38,7 +38,7 @@
  {
   "input": "Any file, whether it's a video or sound or text, some code, an image, whatever, is ultimately some sequence of 1s and 0s.",
   "model": "nmt",
-  "translatedText": "כל קובץ, בין אם זה וידאו או צליל או טקסט, קוד כלשהו, תמונה, מה שלא יהיה, הוא בסופו של דבר איזה רצף של 1 ו-0.",
+  "translatedText": "כל קובץ, בין אם זה וידאו או צליל או טקסט, קוד כלשהו, תמונה, מה שלא יהיה, הוא בסופו של דבר סתם רצף של אפסים ואחדות.",
   "time_range": [
    40.88,
    50.38
@@ -47,7 +47,7 @@
  {
   "input": "And a simple strategy to correct any bit that gets flipped would be to store three copies of each bit.",
   "model": "nmt",
-  "translatedText": "ואסטרטגיה פשוטה לתיקון כל סיביות שמתהפכת תהיה לאחסן שלושה עותקים של כל סיביות.",
+  "translatedText": "אסטרטגיה פשוטה לתיקון כל ביט שמתהפך תהיה לאחסן שלושה עותקים של כל ביט.",
   "time_range": [
    50.68,
    56.0
@@ -65,7 +65,7 @@
  {
   "input": "But what that means is using two thirds of your space for redundancy.",
   "model": "nmt",
-  "translatedText": "אבל המשמעות היא שימוש בשני שלישים מהשטח שלך לעודפות.",
+  "translatedText": "אבל ההשלכה של זה היא שימוש בשני שלישים מהמקום רק בתור יתירות עבור תיקון שגיאות.",
   "time_range": [
    67.16,
    70.86
@@ -74,7 +74,7 @@
  {
   "input": "And even then, for all of that space given up, there's no strong guarantee about what happens if more than one bit gets flipped.",
   "model": "nmt",
-  "translatedText": "וגם אז, למרות כל השטח שמוותר עליו, אין ערובה חזקה לגבי מה יקרה אם יותר מסיבית אחת תתהפך.",
+  "translatedText": "וגם אז, למרות כל המקום שוויתרנו עליו, אין הבטחה למה יקרה אם יותר מביט אחד יתהפך.",
   "time_range": [
    71.48,
    77.24
@@ -83,7 +83,7 @@
  {
   "input": "The much more interesting question is how to make it so that errors can be corrected while giving up as little space as possible.",
   "model": "nmt",
-  "translatedText": "השאלה המעניינת הרבה יותר היא איך לעשות את זה כך שניתן יהיה לתקן שגיאות תוך ויתור על שטח קטן ככל האפשר.",
+  "translatedText": "יותר מעניין לשאול איך לגרום לכך שניתן יהיה לתקן שגיאות תוך ויתור על מקום קטן ככל האפשר.",
   "time_range": [
    77.98,
    84.02
@@ -92,7 +92,7 @@
  {
   "input": "For example, using the method you'll learn about this video, you could store your data in 256-bit blocks, where each block uses 9 bits, 9!",
   "model": "nmt",
-  "translatedText": "לדוגמה, באמצעות השיטה שתלמד על הסרטון הזה, תוכל לאחסן את הנתונים שלך בבלוקים של 256 סיביות, כאשר כל בלוק משתמש ב-9 סיביות, 9!",
+  "translatedText": "למשל, באמצעות השיטה שעליה תלמדו בסרטון זה, תוכלו לאחסן את הנתונים שלכם בבלוקים של 256 ביטים, כאשר כל בלוק משתמש ב-9 ביטים, 9!",
   "time_range": [
    84.52000000000001,
    93.36
@@ -101,7 +101,7 @@
  {
   "input": "to act as a kind of redundancy, and the other 247 bits are free to carry whatever meaningful message or data you want.",
   "model": "nmt",
-  "translatedText": "לפעול כסוג של יתירות, ושאר 247 הסיביות חופשיות לשאת כל מסר או נתונים משמעותיים שתרצו.",
+  "translatedText": "אשר ישמשו בתור יתירות, ושאר הביטים חופשיים לשאת כל מסר או נתונים משמעותיים שתרצו.",
   "time_range": [
    93.76,
    100.3
@@ -110,7 +110,7 @@
  {
   "input": "And it will still be the case that if any bit gets flipped here, just by looking at this block and nothing more, a machine will be able to identify that there was an error and precisely where it was so that it knows how to correct it.",
   "model": "nmt",
-  "translatedText": "וזה עדיין יהיה כך שאם ביט כלשהו יתהפך כאן, רק על ידי הסתכלות על הבלוק הזה ותו לא, מכונה תוכל לזהות שהייתה שגיאה ובדיוק היכן היא הייתה כדי שהיא תדע לתקן אותה.",
+  "translatedText": "ובכל זאת, אם ביט כלשהו מתהפך, מספיק למכונה להסתכל על הבלוק הזה בלבד בכדי לזהות שהייתה שגיאה, ואפילו לזהות בדיוק היכן הייתה השגיאה כדי שהיא תדע לתקן אותה.",
   "time_range": [
    100.9,
    112.66
@@ -128,7 +128,7 @@
  {
   "input": "And for this particular scheme, if two bits get flipped, the machine will at least be able to detect that there were two errors, though it won't know how to fix them.",
   "model": "nmt",
-  "translatedText": "ולסכמה הספציפית הזו, אם שני ביטים יתהפכו, המכונה לפחות תוכל לזהות שהיו שתי שגיאות, אם כי היא לא תדע כיצד לתקן אותן.",
+  "translatedText": "ובשיטה הספציפית הזו, אם שני ביטים יתהפכו, המכונה עדיין תוכל לזהות שהיו שתי שגיאות, אם כי היא לא תדע כיצד לתקן אותן.",
   "time_range": [
    115.44,
    122.86
@@ -137,7 +137,7 @@
  {
   "input": "We'll talk a little bit later about how this scales for blocks with different sizes.",
   "model": "nmt",
-  "translatedText": "נדבר קצת מאוחר יותר על איך זה קנה מידה עבור בלוקים בגדלים שונים.",
+  "translatedText": "בהמשך נדבר גם על איך השיטה יכולה לעבוד גם עבור בלוקים בגדלים שונים.",
   "time_range": [
    123.52,
    126.9
@@ -146,7 +146,7 @@
  {
   "input": "Methods that let you correct errors like this are known, reasonably enough, as error correction codes.",
   "model": "nmt",
-  "translatedText": "שיטות המאפשרות לך לתקן שגיאות כמו זו ידועות, באופן סביר, בתור קודי תיקון שגיאות.",
+  "translatedText": "שיטות כמו זו, המאפשרות לתקן שגיאות, ידועות, באופן לא מפתיע, בתור קודי תיקון שגיאות.",
   "time_range": [
    127.86,
    132.9
@@ -155,7 +155,7 @@
  {
   "input": "For the better part of the last century, this field has been a really rich source of surprisingly deep math that gets incorporated into devices we use every day.",
   "model": "nmt",
-  "translatedText": "בחלקה הטוב יותר של המאה הקודמת, תחום זה היה מקור עשיר באמת למתמטיקה עמוקה להפתיע שמשולבת במכשירים שאנו משתמשים בהם מדי יום.",
+  "translatedText": "בחלק משמעותי מהמאה הקודמת, תחום זה היה מקור עשיר מאוד למתמטיקה עמוקה להפתיע שהיום משולבת במכשירים בהם אנו משתמשים מדי יום.",
   "time_range": [
    133.66,
    141.94
@@ -164,7 +164,7 @@
  {
   "input": "The goal here is to give you a very thorough understanding of one of the earliest examples, known as a Hamming code.",
   "model": "nmt",
-  "translatedText": "המטרה כאן היא לתת לך הבנה מעמיקה מאוד של אחת הדוגמאות המוקדמות ביותר, המכונה קוד Hamming.",
+  "translatedText": "המטרה של סרטון זה היא להקנות לכם הבנה מעמיקה של אחת הדוגמאות הראשונות ביותר לקוד תיקוד שגיאות, המכונה קוד המינג.",
   "time_range": [
    142.84,
    148.66
@@ -173,7 +173,7 @@
  {
   "input": "And by the way, the way I'm thinking about the structure of this video is less about explaining it as directly as possible, and more a matter of prompting you to invent it for yourself, with a little gentle guidance here and there.",
   "model": "nmt",
-  "translatedText": "ודרך אגב, איך שאני חושב על המבנה של הסרטון הזה הוא פחות עניין של הסבר ישיר ככל האפשר, ויותר עניין של לדרבן אותך להמציא את זה לעצמך, עם קצת הדרכה עדינה פה ושם.",
+  "translatedText": "ודרך אגב, האופן בו אני חושב על המבנה של סרטון זה הוא פחות הסבר ישיר, ודווקא יותר לגרום לכם להמציא את השיטה בעצמכם, עם קצת הכוונה עדינה פה ושם.",
   "time_range": [
    149.52,
    159.82
@@ -182,7 +182,7 @@
  {
   "input": "So when you feel like you see where it's going at some point, take that moment to pause, actively predict what the scheme is going to be before I tell you.",
   "model": "nmt",
-  "translatedText": "אז כשאתה מרגיש שאתה רואה לאן זה הולך בשלב מסוים, קח את הרגע הזה לעצור, חזה באופן פעיל מה התוכנית עומדת להיות לפני שאני אומר לך.",
+  "translatedText": "אז כשאתם מרגישים שאתם רואים לאן זה הולך ברגע מסוים, עצרו שנייה, ונסו לחזות מה השיטה עומדת להיות לפני שאני מגלה לכם.",
   "time_range": [
    160.12,
    166.72
@@ -191,7 +191,7 @@
  {
   "input": "Also, if you want your understanding to get down to the hardware level, Ben Eater has made a video in conjunction with this one showing you how to actually implement Hamming codes on breadboards, which is extremely satisfying.",
   "model": "nmt",
-  "translatedText": "כמו כן, אם אתה רוצה שההבנה שלך תרד לרמת החומרה, בן איטר הכין סרטון יחד עם הסרטון הזה שמראה לך איך ליישם בפועל קודי Hamming על לוחות לחם, וזה מספק ביותר.",
+  "translatedText": "כמו כן, אם אתם רוצים שההבנה שלכם תרד לרמות של החומרה, בן איטר הכין סרטון מששלים לסרטון הזה שמראה לכם כיצד ליישם בפועל קודי המינג על לוחות לחם, וזה מספק ביותר.",
   "time_range": [
    167.24,
    178.24
